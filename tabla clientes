@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS client;
-USE clien;
+USE client;
 CREATE TABLE IF NOT EXISTS `clientes` (
   `nif` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Clave primaria',
   `nombre` varchar(50) NOT NULL COMMENT 'nombre cliente',
