@@ -1,0 +1,9 @@
+CREATE DATABASE alumnos;
+USE alumnos;
+create table alumnos (nombre varchar (30),edad int);
+insert into alumnos values ('Jean Pierre Chavez Guevara',18);
+insert into alumnos values ('Jean Pierre Chavez ',18);
+insert into alumnos values ('Jean  Chavez ',18);
+insert into alumnos values ('Piero Manrique',20);
+select * from alumnos;
+drop database alumnos;
